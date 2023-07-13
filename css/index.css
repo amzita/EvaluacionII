@@ -1,93 +1,74 @@
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    font-family: sans-serif;
-  }
-
-  body {
-    background-color: #e0dceb;
-    height: 100vh;
+.card {
+    width: 300px;
+    background-color: white;
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    font-family: 'Rubik';
+    align-items: center;
   }
 
-  .card {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 345px;
-    height: 415px;
-    background-color: #df7c7c;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 15px 35px 0 rgba(0,0,0,0.2);
-  }
-
-  .pattern {
-    width: 415px;
+  .profile-image {
+    width: 150px;
     height: 150px;
-  }
-
-  .card-section img {
-    width: 125px;
     border-radius: 50%;
-    transform: translateY(-15%);
-    box-shadow: 0 9px 30px 0 rgba(0,0,0,0.1);
-  }
-
-  .card-section {
-    transform: translateY(-25%);
-  }
-
-  .name, .number {
-    font-size: 18px;
-    font-weight: bold;
-    color: #47474e;
-    font-family: 'Rubik';
+    object-fit: cover;
+    margin-bottom: 10px;
   }
 
   .name {
-    color: #4e518b;
-    letter-spacing: 0.03em;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
   }
 
-  .location {
-    line-height: 2.2rem;
-    letter-spacing: 0.08em;
+  .email, .phone, .company {
+    margin-bottom: 5px;
   }
-
-  .location, .info {
-    color: #929292;
-    font-size: 14px;
+  /**/
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
   }
-
-  span {
-    color: #929292;
-    font-weight: bolder;
-    font-family: 'Rubik';
-    font-size: 17px;
-    position: relative;
-    right: -3%; 
+  
+  .user-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7aeae;
+    padding: 20px;
+    
   }
-
-  .info {
-    font-size: 10px;
-    letter-spacing: 0.08em;
-  }
-
-  .card-footer {
-    grid-gap: 10%;
-    line-height: 1.2rem;
-    transform: translateY(50%);
-  }
-
-  /* Estilos adicionales para los componentes de usuario */
-  .user-component {
+  
+  .card {
+    background-color: #a39d9d;
+    padding: 20px;
     margin: 10px;
-    padding: 10px;
-    background-color: #ffffff;
-    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .details-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  /**/
+  
